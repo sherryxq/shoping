@@ -20,7 +20,7 @@
       this.fullscreenLoading = true
       setTimeout(() => {
         this.fullscreenLoading = false
-        this.$router.push('Hello')
+        this.$router.push('test')
       }, 1000)
     },
     methods: {
