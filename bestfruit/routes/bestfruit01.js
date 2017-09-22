@@ -48,10 +48,10 @@ router.get('/order',function(req,res,next){
 		// setup email data with unicode symbols
 		let mailOptions = {
 			from: '"yunchuan" <qinyunchuan@bestfruit.me>', // sender address
-			to: '"yunchuan" <yunchuanqin@qq.com>, sherryxq@qq.com', // list of receivers
-			subject: 'Hello ✔', // Subject line
-			text: 'Hello world?', // plain text body
-			html: '<b>Hello world?</b>' // html body
+			to: '"yunchuan" <yunchuanqin@qq.com>, sherryxq@foxmail.com', // list of receivers
+			subject: '订单提醒 ✔', // Subject line
+			text: '你有一个新订单！', // plain text body
+			html: '<b>你有一个新订单！</b>' // html body
 		};
 	
 		// send mail with defined transport object
