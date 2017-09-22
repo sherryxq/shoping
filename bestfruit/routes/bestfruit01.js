@@ -42,6 +42,7 @@ router.get('/order',function(req,res,next){
 	   to:      "sherryxq <sherryxq@qq.com>, yunchuan <yunchuanqin@qq.com>",
 	   subject: "testing emailjs"
 	}, function(err, message) { console.log(err || message); });
+	res.send('complete');
 });
 
 module.exports = router;
