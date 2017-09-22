@@ -3,7 +3,7 @@
 <div class="test">
   <div class="topdiv">百福水果商城</div>
 
-  <img src="/static/img/baixiangguo.jpg" width="375" height="275"/>
+  <img src="/static/img/baixiangguo.jpg" width="30%" />
   <div>
     <p class="baixiangguo">百香果</p>
     <p class="price">￥58</p>
@@ -18,16 +18,16 @@
     <el-menu-item index="3">食用方法</el-menu-item>
   </el-menu>
   
-  <img src="/static/img/introduce01.jpg" width="750" height="762"/>
+  <img src="/static/img/introduce01.jpg" width="100%" />
   <br />
-  <img src="/static/img/introduce02.jpg" width="750" height="857"/>
+  <img src="/static/img/introduce02.jpg" width="100%"/>
   <br />
-  <img src="/static/img/introduce03.jpg" width="750" height="802"/>
+  <img src="/static/img/introduce03.jpg" width="100%"/>
   
   <hr />
   <div>
     	<p>了解更多，关注“百福速鲜”微信公众号</p>
-    	<img src="/static//img/baifu.jpg" width="900" height="500" />
+    	<img src="/static//img/baifu.jpg" width="80%"  />
 	</div>
   <el-button class="buybutton" type="primary" v-on:click='click'>立即购买</el-button>
 </div>
