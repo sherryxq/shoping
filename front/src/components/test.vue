@@ -58,27 +58,35 @@
   top:0;
   left: 0;
   width: 100%;
-  height: 30px;
+  height: 8%;
   background: #000000;
-  font-size: 20px;
+  font-size: 3rem;
   color: #FFFFFF;
+  text-align: center;
+  vertical-align: center;
 }
 
-.baixiangguo {
-  font-size: 20px;
+.baixiangguodiv {
+  font-size: 3rem;
   color: #949494;
-  align: left;
+  text-align: left;
 }
 
-.price {
-  font-size: 30px;
+.pricediv {
+  font-size: 3rem;
   color: #FF0000;
-  align: left;
+  text-align: left;
 }
 
-.introduce {
-  font-size: 15px;
-  align: left;
+.expressdiv {
+  font-size: 2rem;
+  text-align: left;
+  color: #949494;
+}
+
+.introducediv {
+  font-size: 2rem;
+  text-align: left;
   color: #949494;
 }
 
@@ -87,7 +95,7 @@
   bottom:0;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 10%;
   background: #FF0000;
 }
 </style>
