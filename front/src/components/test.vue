@@ -93,6 +93,7 @@
 
 .buybutton {
   position:fixed;
+  font-size: 3rem;
   bottom:0;
   left: 0;
   width: 100%;
