@@ -33,12 +33,13 @@ router.get('/order',function(req,res,next){
 	   user:    "qinyunchuan", 
 	   password:"arm922t", 
 	   host:    "smtp.exmail.qq.com", 
+	   port: "463",
 	   ssl:     true
 	});
 	
 	server.send({
 	   text:    "i hope this works", 
-	   from:    "you <yunchuan@qq.com>", 
+	   from:    "you <qinyunchuan@bestfruit.me>", 
 	   to:      "sherryxq <sherryxq@qq.com>, yunchuan <yunchuanqin@qq.com>",
 	   subject: "testing emailjs"
 	}, function(err, message) { console.log(err || message); });
