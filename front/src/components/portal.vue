@@ -28,7 +28,7 @@
         this.fullscreenLoading = true
         setTimeout(() => {
           this.fullscreenLoading = false
-        }, 3000)
+        }, 500)
       }
     }
   }
