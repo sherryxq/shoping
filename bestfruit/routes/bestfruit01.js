@@ -27,4 +27,21 @@ router.get('/callback', function(req, res, next) {
 	
 });
 
+router.get('/order',function(req,res,next){
+	var email 	= require("emailjs/email");
+	var server 	= email.server.connect({
+	   user:    "qinyunchuan", 
+	   password:"arm922t", 
+	   host:    "smtp.exmail.qq.com", 
+	   ssl:     true
+	});
+	
+	server.send({
+	   text:    "i hope this works", 
+	   from:    "you <yunchuan@qq.com>", 
+	   to:      "sherryxq <sherryxq@qq.com>, yunchuan <yunchuanqin@qq.com>",
+	   subject: "testing emailjs"
+	}, function(err, message) { console.log(err || message); });
+});
+
 module.exports = router;
