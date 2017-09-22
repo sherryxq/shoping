@@ -1,9 +1,23 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import ElementUI from 'element-ui'
+import {Loading, Row, Select, Form, FormItem, Option,
+        Col, Input, InputNumber, Button, Menu,
+        DatePicker, TimePicker} from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
-Vue.use(ElementUI)
+Vue.use(Loading.directive)
+Vue.use(Row)
+Vue.use(Select)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Option)
+Vue.use(Col)
+Vue.use(Input)
+Vue.use(InputNumber)
+Vue.use(Button)
+Vue.use(Menu)
+Vue.use(DatePicker)
+Vue.use(TimePicker)
 Vue.use(Router)
 
 export default new Router({

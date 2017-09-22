@@ -5,11 +5,12 @@
 
   <img src="/static/img/baixiangguo.jpg" width="30%" />
   <div>
-    <p class="baixiangguo">百香果</p>
-    <p class="price">￥58</p>
-    <p class="introduce">介绍：产自广西阳朔，农场新鲜采摘，免费配送。礼品包装，10斤/箱。百香果酸甜可口，消食解腻，是食用佳品。</p>
+    <div class="baixiangguodiv">桂林阳朔产百香果</div>
+    <div class="pricediv">￥58</div>
+    <div class="expressdiv">快递：免费配送</div>
+    <div class="introducediv">介绍：产自广西阳朔，农场新鲜采摘，免费配送。礼品包装，10斤/箱。百香果酸甜可口，消食解腻，是食用佳品。</div>
   </div>
-
+  
   <div class="line"></div>
   
   <el-menu theme="light" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
