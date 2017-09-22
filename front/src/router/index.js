@@ -1,12 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
-import info from '@/components/info'
-import portal from '@/components/portal'
-import test from '@/components/test'
-import result from '@/components/result'
+
 
 Vue.use(ElementUI)
 Vue.use(Router)
@@ -16,27 +12,27 @@ export default new Router({
     {
       path: '/',
       name: 'portal',
-      component: portal
+      component: resolve => require(['@/components/portal'], resolve)
     },
     {
       path: '/info',
       name: 'info',
-      component: info
+      component: resolve => require(['@/components/info'], resolve)
     },
     {
       path: '/Hello',
       name: 'Hello',
-      component: Hello
+      component: resolve => require(['@/components/Hello'], resolve)
     },
     {
       path: '/test',
       name: 'test',
-      component: test
+      component: resolve => require(['@/components/test'], resolve)
     },
     {
       path: '/result',
       name: 'result',
-      component: result
+      component: resolve => require(['@/components/result'], resolve)
     }
   ]
 })

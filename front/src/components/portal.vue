@@ -20,7 +20,11 @@
       this.fullscreenLoading = true
       setTimeout(() => {
         this.fullscreenLoading = false
+<<<<<<< HEAD
         this.$router.push('test')
+=======
+        this.$router.push('Hello')
+>>>>>>> 627a6e36d3f40ceed120e92425338cf28474ee7a
       }, 1000)
     },
     methods: {
@@ -28,7 +32,11 @@
         this.fullscreenLoading = true
         setTimeout(() => {
           this.fullscreenLoading = false
+<<<<<<< HEAD
         }, 3000)
+=======
+        }, 500)
+>>>>>>> 627a6e36d3f40ceed120e92425338cf28474ee7a
       }
     }
   }
